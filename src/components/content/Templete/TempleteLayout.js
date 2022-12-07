@@ -15,25 +15,25 @@ function TempleteLayout() {
             <p className='imgThumb'>
             <img src={logo} alt="" />
             <Link to="temp1">
-            <span><button >templete1</button></span>
+            <span><button >Get Templete</button></span>
             </Link>
             </p>
             <p className='imgThumb'>
             <img src={logo} alt="" />
-            <Link to="temp1">
-            <span><button >templete2</button></span>
+            <Link to="temp2">
+            <span><button >Get Templete</button></span>
             </Link>
             </p>
             <p className='imgThumb'>
             <img src={logo} alt="" />
-            <Link to="temp1">
-            <span><button >templete3</button></span>
+            <Link to="temp3">
+            <span><button >Get Templete</button></span>
             </Link>
             </p>
             <p className='imgThumb'>
             <img src={logo} alt="" />
-            <Link to="temp1">
-            <span><button >templete3</button></span>
+            <Link to="temp4">
+            <span><button >Get Templete</button></span>
             </Link>
             </p>
         </div>

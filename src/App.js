@@ -4,8 +4,11 @@ import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Home from './components/content/Home';
-import Aboutus from './components/content/Aboutus';
+import Aboutus from './components/content/About/Aboutus';
 import Temp1 from './components/content/Templete/Templete1/Temp1'
+import Temp2 from './components/content/Templete/Templete2/Temp2'
+import Temp3 from './components/content/Templete/Templete3/Temp3'
+import Temp4 from './components/content/Templete/Templete4/Temp4'
 import developing from './Underdeveloping/Developing';
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
       <Route path='home' element={<Home/>}/>
       <Route path='about' element={<Aboutus/>}/>
       <Route path ='home/temp1' element={<Temp1/>}/>
+      <Route path ='home/temp2' element={<Temp2/>}/>
+      <Route path ='home/temp3' element={<Temp3/>}/>
+      <Route path ='home/temp4' element={<Temp4/>}/>
     </Routes>
     </>
   );
