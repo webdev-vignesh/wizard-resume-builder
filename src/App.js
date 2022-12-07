@@ -1,11 +1,12 @@
+import React from 'react';
 import './App.css';
+import Developing from './Underdeveloping/Developing'
 
 function App() {
   return (
-    <div >
-      <h1>hai</h1>
-    </div>
+    <Developing/>
   );
 }
 
 export default App;
+
